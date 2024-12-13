@@ -1,4 +1,6 @@
-
+import { getportfolio } from 'https://newportfoliodesign.github.io/portfolio/test.js';
+let val = getportfolio(); 
+console.log(val);
 var elems = document.body.getElementsByTagName("a");
 var check = false;
 if(check === true) {
